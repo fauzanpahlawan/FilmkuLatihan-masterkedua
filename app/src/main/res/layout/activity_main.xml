@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!-- TODO (1) Ganti jadi linearlayout -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ttc.project.filmku.MainActivity">
+    <!-- COMPLETED (2) Bikin textview 1 dgn id tv_total_result dan height nya wrap_content-->
+    <!-- TODO (3) Buat res directory menu -->
+    <!-- TODO (4) Buat file menu main_menu -->
+    <!-- TODO (27) buat recyclerview di bawah text -->
+    <!-- TODO (28) beri id rv_films -->
+
+    <TextView
+        android:id="@+id/tv_total_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        tools:text="Dummy text ..." />
+
+    <ProgressBar
+        android:id="@+id/inderteminate_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_films"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

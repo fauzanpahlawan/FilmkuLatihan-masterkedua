@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\fauza\AndroidStudioProjects\FilmkuLatihan-masterkedua\Filmku.iml" filepath="C:\Users\fauza\AndroidStudioProjects\FilmkuLatihan-masterkedua\Filmku.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FilmkuLatihan-masterkedua.iml" filepath="$PROJECT_DIR$/FilmkuLatihan-masterkedua.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
